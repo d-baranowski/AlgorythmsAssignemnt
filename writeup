@@ -1,0 +1,6 @@
+- Check each pile in each truck and find the minimum difference in width between the box on top and the box you are trying to place 
+- Check each pile in each truck and find the minimum difference in height between the box on top and the box your are trying to place 
+- Store the largest possible box that can be placed on top of each pile and use these boxes to do a search for the minimum difference in size 
+if there isn't any pile sufficient for the box we're trying to place place it in a new pile in a truck with minimal remaining width otherwise create a new truck 
+Provide means of storing the biggest possible box for each truck as a variable so when looking through trucks the program will not check piles of trucks for which 
+(BiggestBox < InputBox) also if Biggestbox == to InputBox place the box because this means that (Not necessarliy correct)
